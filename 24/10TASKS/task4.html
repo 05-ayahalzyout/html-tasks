@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task4</title>
+</head>
+<style>
+.task4{
+    display:grid ;
+    grid-template-rows: 70px 300px 150px;
+    grid-template-columns: auto;
+    
+  grid-template-areas:
+    'aaa aaa aaa aaa aaa aaa '
+    'bbb bbb bbb bbb ccc ccc'
+    'ddd ddd ddd ddd ddd ddd ';
+  gap: 10px;
+  padding: 10px;
+
+}
+.task4> div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.a{ grid-area:aaa; }
+.b{ grid-area:bbb; }
+.c{ grid-area:ccc; }
+.d{ grid-area:ddd; }
+
+
+</style>
+<body>
+<div class="task4">
+    <div class="a" style="background-color:black ;"></div>
+    <div class="b" style="background-color: orange;"></div>
+    <div class="c" style="background-color: green;"></div>
+    <div class="d" style="background-color: blue;"></div>
+</div>
+</body>
+</html>
